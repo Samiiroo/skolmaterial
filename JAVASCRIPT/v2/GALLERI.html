@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<style>
+  .imgStyle{
+    height:100px;
+    witdh:100px;
+    border: 3px solid grey;
+  }
+</style>
+
+  </head>
+  <body>
+    <img id ="mainImage" height="500" witdh="540" style="border:3px solid grey"
+    src="C:\Users\samir\Desktop\Frontend\media/samcamel.JPG">
+    <br/>
+    <div class="divContainer" onclick='changeImage(event)'>
+      <img src="C:\Users\samir\Desktop\Frontend\media/samcamel.JPG" class="imgStyle">
+      <img src="C:\Users\samir\Desktop\Frontend\media/dog.JPG" class="imgStyle">
+      <img src="C:\Users\samir\Desktop\Frontend\media/boo.JPG" class="imgStyle">
+      <img src="C:\Users\samir\Desktop\Frontend\media/tito.JPG" class="imgStyle">
+      <img src="C:\Users\samir\Desktop\Frontend\media/katt.JPG" class="imgStyle">
+    </div>
+    <script type="text/javascript">
+      function changeImage(event)
+      {
+          event=event || window.event;
+
+          let targetElement = event.target || event.srcElement;
+                  if(targetElement.tagName == "IMG"){
+          document.getElementById('mainImage').src= targetElement.getAttribute('src');
+          }
+
+      }
+
+    </script>
+  </body>
+</html>

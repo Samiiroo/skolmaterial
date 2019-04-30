@@ -1,0 +1,65 @@
+table, th, td
+{
+padding: 5px;
+border: 1px solid black;
+}
+.six{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .box{
+  width: 30%;
+  margin: 1px; */
+/* } */
+#grön{
+  background-color: green;
+color: white;
+}
+#buttonx{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+#problem10 .problem-area{
+  display:flex;
+  justify-content: flex-end;
+}
+#problem11 .problem-area{
+  display: flex;
+  justify-content: center;
+align-items: flex-end;
+}
+#problem12 .problem-area{
+
+  align-items: flex-end;
+  display: flex;
+}
+#problem13 .problem-area{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+#boxrev{
+  display:flex;
+  flex-direction: row-reverse;
+}
+#problem15 .huhu{
+display:flex;
+flex-direction: column;
+align-items: flex-end;
+}
+#problem16 .hehe{
+  display: flex;
+  justify-content: space-between;
+}
+#problem17 .ball{
+position:absolute;
+top:0px;
+right:0px;
+}
+#problem18 .ball{
+  position:absolute;
+  bottom: 0px;
+  left: 0px;
+}

@@ -1,0 +1,48 @@
+table, th, td
+{
+padding: 5px;
+border: 1px solid black;
+}
+
+#problem1 .problem-area{
+  color: red;
+  font-size: 25px;
+}
+#problem2 .problem-area{
+  display: flex;
+}
+#problem3 .problem-area{
+
+}
+#problem7 .problem-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#problem10 .problem-area p{
+  position:absolute;
+  bottom:0px;
+  right:0px;
+}
+#problem12 .problem-area {
+ display: flex;
+ flex-wrap: wrap;
+}
+#problem12 .problem-area>div {
+ flex-grow: 1;
+ flex-shrink: 1;
+}
+@media only screen and (max-width: 540px) {
+ #problem12 .problem-area>div {
+   flex-basis: 100%;
+ }
+}
+#problem13 .problem-area{
+  flex-wrap: wrap-reverse;
+  justify-content:center;
+}
+#problem13 div:nth-child(-n+4){
+flex-direction: column-reverse;
+align-content: flex-start;
+font-size: 20px;
+}

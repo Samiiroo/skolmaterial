@@ -1,0 +1,12 @@
+.hej{
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
+.snygg{
+  font-size: 50px;
+  border: solid black;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}

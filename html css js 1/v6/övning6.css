@@ -1,0 +1,27 @@
+body{
+  background-color:#DDDDDD;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab{
+font-size: 20px;
+text-align: center;
+}
+
+.main1{
+  background-color: navy;
+}
+.main2{
+  background-color: silver;
+}
+.main3{
+  background-color: gold;
+}
+
+.show{
+  display: block;
+}

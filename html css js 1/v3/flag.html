@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div> </div>
+  </body>
+</html>
+<style>
+
+  div {
+    background-color: blue  ;
+    width: 250px;
+    height: 150px;
+    border: 1px solid grey;
+    position: relative;
+      }
+      div::after{
+
+        content: "";
+        width: 250px;
+        height: 40px;
+
+        background-color: yellow;
+        position: absolute;
+        left: 0px;
+        bottom: 55px;
+
+      }
+      div::before{
+        content: "";
+        width: 40px;
+        height: 150px;
+        background-color: yellow;
+        position: absolute;
+        bottom:0px;
+        left: 45px;
+
+      }
+div{
+  transition: transform 0.4s ease-in-out;
+
+}
+      div:hover {
+  transform: scale(1.1) rotate(360deg);
+  background-color: red;
+}
+div:hover ::before{
+  background-color: white;
+
+}
+div:hover ::after{
+  background-color: white;
+}
+div{
+  z-index: 1    ;
+
+}
+</style>

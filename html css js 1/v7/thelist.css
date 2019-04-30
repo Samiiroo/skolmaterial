@@ -1,0 +1,38 @@
+/** Write your CSS here **/
+#thelist li{
+  list-style: none;
+}
+#thelist li:nth-child(2n+1){
+  background-color: grey;
+}
+/* #thelist li:first-child{
+  background-color: grey; */
+}
+.beer{
+  display:none;
+}
+.page h3{
+
+}
+/** Do not change this **/
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 20px;
+  color: #808080;
+}
+
+p {
+  margin: 20px;
+}
+
+#thelist {
+  list-style: upper-roman;
+}
+
+#header-title {
+  color: #ccc !important;
+}

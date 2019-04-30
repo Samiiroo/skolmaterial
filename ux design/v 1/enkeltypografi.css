@@ -1,0 +1,23 @@
+:root{
+  --rhytm: 16px;
+}
+h1{
+  margin:calc( 2 * var(--rhytm));
+  font-size: var(rhytm);
+
+}
+@media screen and (max-width: 700px){
+ h1{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+  }
+   h2{
+     margin:var(--rhytm);
+     font-style: italic;
+     color:  blue;
+  }
+}
+li{
+  margin:var(--rhytm);
+}
